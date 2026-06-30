@@ -1,0 +1,42 @@
+# Build artifacts
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.*
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+stamp-h1
+package_version
+*.pc
+*.o
+*.lo
+*.la
+
+# Dependency files
+.deps/
+.libs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+webapp/uploads/*
+webapp/processed/*
+!webapp/uploads/.gitkeep
+!webapp/processed/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
